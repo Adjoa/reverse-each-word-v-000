@@ -10,7 +10,7 @@ require 'pry'
 # end
 #
 
-string = "Hello there, and how are you?"
+# string = "Hello there, and how are you?"
 
 def reverse_each_word(string)
   array = string.split
@@ -18,10 +18,10 @@ def reverse_each_word(string)
     word.reverse
   end
   # binding.pry
-  #array.join(" ")
+  array.join(" ")
 end
 
-reverse_each_word(string)
+# reverse_each_word(string)
 
 #
 # def reverse_each_word(string)
